@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.icon{
+    position: relative;
+    a{
+        text-decoration: none;
+        color: black;
+        i{
+            font-size: 23px;
+        }
+    }
+    .item-count{
+        width:17px;
+        height: 17px;
+        border: 1px solid red;
+        border-radius: 50%;
+        background-color: red;
+        color:aliceblue;
+        position: absolute;
+        left: 18px;
+        top: -8px;
+        line-height: 12px;
+        text-align: center;
+    }
+   
+}
+
+.container-nav{
+    position: relative;
+    width: 100%;
+}
+.side-bar{
+    width: 250px;
+    height: auto;
+    position: absolute;
+    right: 0;
+    display: none;
+    top: 105px;
+    
+}
+
+.spans{
+    
+    font-weight: bold;
+
+}
+.spans:hover{
+    cursor: pointer;
+}
+
+.display{
+    display: block;
+}
+
+
+
